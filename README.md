@@ -1,4 +1,4 @@
-#CrackMD5Hash
+# CrackMD5Hash
 Crack md5 hash is a shell script used to decipher and crack MD5 hashes via a wordlist dictionary. 
 
 # Prequistics
@@ -26,9 +26,13 @@ Make sure the hash been cracked is an MD5 hash else script won't work.
 
 # Installation in Linux
 > sudo apt update 
+
 > git clone https://github.com/TermuxHackz/CrackMD5Hash
+
 > cd CrackMD5Hash/
+
 > chmod +x crackmd5hash.sh
+
 > ./crackhash.sh
 
 # Installation in Termux
